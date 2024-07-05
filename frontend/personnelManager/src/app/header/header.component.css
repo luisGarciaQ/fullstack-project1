@@ -1,0 +1,15 @@
+header {
+    text-align: center;
+    background-color: #b8d5f1;
+    font-size: 20px;
+    padding: 0px 0;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+app-nav {
+    margin-top: 10px;
+}

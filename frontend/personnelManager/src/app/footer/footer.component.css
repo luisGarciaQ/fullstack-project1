@@ -1,0 +1,12 @@
+footer
+{
+    background-color: rgb(221, 221, 240);
+    text-align: center;
+    padding: .5em;
+}
+
+footer h6
+{
+    font-size: 12px;
+    font-style: italic;
+}

@@ -1,0 +1,48 @@
+<div class="search-employee">
+    <h4>Get Employee By Id</h4>
+    <form>
+        <div class="search-container">
+            <input type="number" id="formEmployeeId" name="formEmployeeId" [(ngModel)]="formEmployeeId">
+            <button type="button" (click)="getEmployeeById()">Search</button>
+        </div>
+    </form>
+</div>
+
+
+<div class="container">
+    <div class="table-container">
+        <app-create-employee-form (createEmployeeEvent)="handleCreateEmployee($event)"></app-create-employee-form>
+    
+        <table class="employee-table">
+            <thead>
+                <tr>
+                    <th>Employee ID:</th>
+                    <th>First Name:</th>
+                    <th>Last Name:</th>
+                    <th>Department:</th>
+                    <th>Actions:</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of employees; let i = index" class="table-row">
+                    <td>{{ item.employeeId }}</td>
+                    <td>{{ item.employeeFirstName }}</td>
+                    <td>{{ item.employeeLastName }}</td>
+                    <td>{{ item.departmentId.departmentName }}</td>
+                    <td><button (click)="deleteEmployee(item.employeeId)">Delete</button></td>
+                    <td><button (click)="updateEmployee(i)">Update</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+

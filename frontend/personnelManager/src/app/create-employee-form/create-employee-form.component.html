@@ -1,0 +1,25 @@
+<span><h2>Employee Form:</h2></span>
+<div class="form-container">
+    <form >
+        <div class="form-group">
+            <label for="employeeId">Employee Id:</label>
+            <input type="number" id="employeeId" name="employeeId" [(ngModel)] = "employeeId" required>
+          </div>
+      <div class="form-group">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" [(ngModel)] = "employeeFirstName" required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" [(ngModel)] = "employeeLastName" required>
+      </div>
+      <div class="form-group">
+        <label for="department">Department:</label>
+        <select id="department" name="department" [(ngModel)]="index" required>
+          <option *ngFor="let department of departments; let i = index" [value]="i">{{ department.departmentName }}</option>
+        </select>
+      </div>
+      <button class="submit-button" (click) = "createThisEmployee()">Submit</button>
+    </form>
+  </div>
+  

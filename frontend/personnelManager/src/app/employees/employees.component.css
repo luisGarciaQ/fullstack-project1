@@ -1,0 +1,153 @@
+.search-employee {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-employee h4 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.search-container button {
+    background-color: rgba(70, 130, 180, 0.7);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.employee-table
+{
+    display: inline-block;
+    max-height: 500px;
+    height: 435px;
+}
+.container
+{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: .5px solid lightgray;
+}
+
+th
+{
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+
+.search-employee h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search-employee form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.search-employee label {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.search-employee input {
+    border: solid 1px black;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    max-width: 450px;
+    width: 250px;
+    align-self: center;
+}
+
+.search-employee button {
+    align-self: flex-start;
+    background-color: rgba(70, 130, 180, 0.7);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 8px 0;
+}
+
+.record-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+    background-color: azure;
+    border-bottom: 2px solid #000000;
+}
+
+
+
+.record-header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+    background-color: azure;
+    border-bottom: 2px solid #000000;
+}
+
+button {
+    background-color: rgba(70, 130, 180, 0.7);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 8px;
+}
+
